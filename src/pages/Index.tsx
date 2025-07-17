@@ -18,10 +18,10 @@ const Index = () => {
               <h1 className="text-2xl font-bold text-primary">ST Motors</h1>
             </div>
             <div className="hidden md:flex space-x-6">
-              <a href="#home" className="text-gray-700 hover:text-primary transition-colors">Главная</a>
-              <a href="#about" className="text-gray-700 hover:text-primary transition-colors">О нас</a>
-              <a href="#services" className="text-gray-700 hover:text-primary transition-colors">Услуги</a>
-              <a href="#contact" className="text-gray-700 hover:text-primary transition-colors">Контакты</a>
+              <a href="#home" className="text-white hover:text-primary transition-colors">Главная</a>
+              <a href="#about" className="text-white hover:text-primary transition-colors">О нас</a>
+              <a href="#services" className="text-white hover:text-primary transition-colors">Услуги</a>
+              <a href="#contact" className="text-white hover:text-primary transition-colors">Контакты</a>
             </div>
             <Button className="subaru-gradient text-white hover:opacity-90 transition-opacity">
               <Icon name="Phone" size={16} className="mr-2" />
@@ -36,12 +36,12 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+              <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6">
                 Автосервис <span className="text-primary">ST Motors</span>
                 <br />
-                <span className="text-lg text-gray-600">Там где Subaru живёт вечно ⭐</span>
+                <span className="text-lg text-gray-300">Там где Subaru живёт вечно ⭐</span>
               </h1>
-              <p className="text-xl text-gray-600 mb-8">
+              <p className="text-xl text-gray-300 mb-8">
                 Профессиональный ремонт и обслуживание автомобилей в Челябинске. 
                 Мы знаем толк в надёжности — как и вы, если выбрали Subaru! 🚗
               </p>
@@ -68,11 +68,11 @@ const Index = () => {
       </section>
 
       {/* О нас */}
-      <section id="about" className="py-20 px-4">
+      <section id="about" className="py-20 px-4 bg-gray-800">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">О нас</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-white mb-4">О нас</h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Мы не просто чиним машины — мы возвращаем им жизнь! Как говорится, 
               «Love is what makes a Subaru, a Subaru», а мы добавляем к этому профессионализм.
             </p>
@@ -188,11 +188,11 @@ const Index = () => {
       </section>
 
       {/* Контакты */}
-      <section id="contact" className="py-20 px-4">
+      <section id="contact" className="py-20 px-4 bg-gray-800">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Контакты</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-white mb-4">Контакты</h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Готовы доверить нам своего железного друга? Звоните, пишите, приезжайте! 
               Мы всегда рады помочь настоящим автолюбителям.
             </p>
@@ -208,8 +208,8 @@ const Index = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-2xl font-semibold text-gray-900">+7 982 369 7970</p>
-                  <p className="text-gray-600">Доступно в Telegram и WhatsApp</p>
+                  <p className="text-2xl font-semibold text-white">+7 982 369 7970</p>
+                  <p className="text-gray-300">Доступно в Telegram и WhatsApp</p>
                 </CardContent>
               </Card>
 
@@ -221,7 +221,7 @@ const Index = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg text-gray-900 mb-3">Челябинск, ГСК № 8 Автомобилист, дом 2932Е</p>
+                  <p className="text-lg text-white mb-3">Челябинск, ГСК № 8 Автомобилист, дом 2932Е</p>
                   <div className="w-full h-64 rounded-lg overflow-hidden">
                     <iframe
                       src="https://yandex.ru/maps/-/CHHUr6Mx"
@@ -245,9 +245,9 @@ const Index = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-900">Пн-Пт: 9:00 - 18:00</p>
-                  <p className="text-gray-900">Сб: 9:00 - 16:00</p>
-                  <p className="text-gray-600">Вс: выходной</p>
+                  <p className="text-white">Пн-Пт: 9:00 - 18:00</p>
+                  <p className="text-white">Сб: 9:00 - 16:00</p>
+                  <p className="text-gray-300">Вс: выходной</p>
                 </CardContent>
               </Card>
             </div>
@@ -279,12 +279,12 @@ const Index = () => {
               </Card>
 
               <div className="glass-card p-6 text-center">
-                <p className="text-sm text-gray-600 mb-4">
+                <p className="text-sm text-gray-300 mb-4">
                   💡 Лайфхак: Чтобы ваш Subaru жил долго и счастливо, 
                   проходите ТО вовремя и слушайте звуки, которые он издаёт. 
                   Машина всегда подскажет, когда ей нужна помощь!
                 </p>
-                <p className="text-xs text-gray-500 italic">
+                <p className="text-xs text-gray-400 italic">
                   "The beauty of all-wheel drive is that it's always working for you" — и мы тоже!
                 </p>
               </div>
