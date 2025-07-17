@@ -4,7 +4,7 @@ import Icon from '@/components/ui/icon';
 
 const Index = () => {
   return (
-    <div className="min-h-screen hero-gradient">
+    <div className="min-h-screen bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800">
       {/* Навигация */}
       <nav className="glass-card fixed top-0 left-0 right-0 z-50 mx-4 mt-4 rounded-xl">
         <div className="max-w-7xl mx-auto px-6 py-4">
@@ -58,8 +58,8 @@ const Index = () => {
             </div>
             <div className="animate-float">
               <img 
-                src="/img/eb9439de-1ad0-432f-8cc2-d0e53cc8170d.jpg" 
-                alt="Автосервис ST Motors" 
+                src="https://cdn.poehali.dev/files/c929c4a3-6ec6-4672-a5b5-3332544bbc66.jpg" 
+                alt="Subaru STI в автосервисе ST Motors" 
                 className="w-full h-auto rounded-2xl shadow-2xl glass-card"
               />
             </div>
@@ -128,11 +128,11 @@ const Index = () => {
       </section>
 
       {/* Услуги */}
-      <section id="services" className="py-20 px-4 bg-gray-50">
+      <section id="services" className="py-20 px-4 bg-gray-800">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Наши услуги</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-white mb-4">Наши услуги</h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Полный спектр услуг для вашего железного коня. От планового ТО до капитального ремонта — 
               мы делаем всё, чтобы ваш Subaru (и любой другой автомобиль) служил верой и правдой.
             </p>
@@ -217,12 +217,23 @@ const Index = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center text-xl">
                     <Icon name="MapPin" size={24} className="mr-3 text-primary" />
-                    Адрес
+                    Наше расположение
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg text-gray-900">Челябинск</p>
-                  <p className="text-gray-600">ГСК № 8 Автомобилист, дом 2932Е</p>
+                  <p className="text-lg text-gray-900 mb-3">Челябинск, ГСК № 8 Автомобилист, дом 2932Е</p>
+                  <div className="w-full h-64 rounded-lg overflow-hidden">
+                    <iframe
+                      src="https://yandex.ru/maps/-/CHHUr6Mx"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Автосервис ST Motors на карте"
+                    ></iframe>
+                  </div>
                 </CardContent>
               </Card>
 
